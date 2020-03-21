@@ -1,0 +1,122 @@
+*{
+		margin: 0 auto;
+}
+ul {
+	background-image: url("Fundo.png");
+	list-style-type:none;
+	overflow:hidden;
+	margin:0px;
+	
+}
+
+ul li {
+	float:left;
+	
+}
+
+ul li a{
+	padding:2vw 13vw;
+	display:block;
+	color:white;
+	text-decoration:none;
+	font-family:tahoma;
+	background-color:none;
+	font-size:20px;
+	
+}
+ul li a:hover{
+	background-color:none;
+	text-decoration:none;
+	color:c0c0c0;
+}
+div.submenu{
+	position:absolute;
+	display:none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,1.2);
+	
+	
+}
+li.window:hover div.submenu{
+	background-color:black;
+	width:33.2%;
+	display:block;
+	opacity:0.5;
+}
+ div.caixa{
+	 width:100%;
+	 height:80vw;
+	 display:flex
+ }
+ 
+  div.dir{
+	 width:100%;
+ }
+ 
+  div.img {
+	opacity:1;
+	background-image: url("fundo6.png");
+	padding;
+ }
+ 
+ div.lateral{
+	 height:100%;
+	 width:10%;
+	 border-right:solid #c0c0c0 2px;
+	 border-top:solid #c0c0c0 2px;
+	 background-color:#131414;
+ }
+
+ div.lateral ol li a{
+	 color:white;
+	 font-family:Segoe UI;
+	 font-size:1,5vw;
+	 text-decoration:none;
+	 padding:1vw;
+	 display:block
+	 
+ }
+ div.lateral ol li a:hover{
+	 background-color:grey;
+	 text-decoration:underline
+ }
+ div.lateral ol{
+	 list-style-type:none;
+	 padding:0px
+ }
+ 
+ 
+div.lateral h1{
+text-align:center;
+font-size:1vw;
+font-family:Segoe UI;
+background-color:#131414;
+margin:0px
+}
+
+
+div.dir iframe{
+	width:100%;
+	height:100%;
+	border:0
+}
+h1.t1{
+	margin-top:20vw;
+	text-align:center;
+	color:c0c0c0;
+	font-family:Segoe UI;
+}
+p.p1{
+	margin-top:2vw;
+	margin-left:2vw;
+	color:white;
+	font-family:Courier New;
+}
+
+
+h1 {
+	text-align:center;
+}
+
+
+
+ 
